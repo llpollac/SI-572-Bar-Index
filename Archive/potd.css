@@ -1,0 +1,50 @@
+body {
+    font-family: arial, sans-serif;
+    color: #151B54;
+    background-color: #CFECEC;
+}
+
+#header h1 a {
+    text-decoration: underline;
+    color: #151B8D;
+    font-size: 42px;
+    
+}
+
+#header {
+    background-color: #cc00FF;
+    border-top: 3px solid #36c;
+    /*height: 100%;*/
+    overflow:hidden;
+    
+}
+#header h1 {
+    font-size: 22px;
+    float: left;
+    vertical-align: middle;
+}
+#header li {
+    font-size: 16px;
+    display: inline;
+    padding: .25em;
+}
+#header ul {
+    list-style: none;
+    text-align: right;
+    float:right;
+    vertical-align: middle;
+}
+#header li a {
+    color: white;
+    text-decoration: underline;
+}
+
+#header li a.selected {
+    color: purple;
+    text-decoration: none;
+}
+#b p a {
+	color:#000000;
+	text-decoration: underline;
+	
+}
